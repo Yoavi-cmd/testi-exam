@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מדיניות פרטיות — Testi Exam</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { --navy: #193E6A; --sky: #6AB3E0; --ink: #1F2937; --muted: #6B7280; --line: #E5E7EB; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.7 "Segoe UI", Arial, sans-serif; color: var(--ink); background: #F5F7FA; }
+  header { background: var(--navy); color: #fff; padding: 22px 16px; }
+  header .wrap { display: flex; align-items: center; gap: 14px; }
+  header img { width: 44px; height: 44px; }
+  header a { color: #fff; text-decoration: none; font-size: 22px; font-weight: 600; }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  main { padding: 28px 16px 60px; }
+  section { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 26px 28px; margin-bottom: 22px; }
+  h1 { font-size: 28px; margin: 0 0 4px; color: var(--navy); }
+  h2 { font-size: 19px; margin: 26px 0 6px; color: var(--navy); }
+  .updated { color: var(--muted); margin: 0 0 14px; }
+  code { background: #EEF2F7; padding: 1px 6px; border-radius: 4px; direction: ltr; unicode-bidi: embed; }
+  a { color: #1D6FB8; }
+  [lang="en"] { direction: ltr; text-align: left; }
+</style>
+</head>
+<body>
+<header><div class="wrap"><img src="icon.png" alt=""><a href="./">Testi Exam</a></div></header>
+<main class="wrap">
+
+<section>
+  <h1>מדיניות פרטיות</h1>
+  <p class="updated">עודכן לאחרונה: נובמבר 2026</p>
+  <p>Testi היא אפליקציה למבחנים בבתי ספר. כאן מוסבר אילו פרטים האפליקציה שומרת, איפה, ומי יכול לראות אותם.</p>
+
+  <h2>אילו פרטים נשמרים</h2>
+  <p>כשתלמיד נכנס למבחן הוא מקליד <strong>שם מלא</strong> ו<strong>מספר תעודת זהות</strong>. בזמן המבחן נשמרים גם <strong>התשובות</strong> שלו ו<strong>יומן אירועים</strong> של המבחן: מתי התחיל, אם חזר אחרי תקלה, אם יצא מחלון המבחן, ומתי הגיש.</p>
+
+  <h2>איפה הם נשמרים</h2>
+  <p><strong>רק במחשב שעליו נערך המבחן.</strong> האפליקציה <strong>לא מתחברת לאינטרנט</strong> ולא שולחת שום מידע לשום שרת: לא אלינו, לא למיקרוסופט ולא לאף אחד אחר. הקבצים <strong>מוצפנים</strong> (AES-256-GCM), ורק המורה שהכין את המבחן (ובעל המפתח הראשי של בית הספר) יכולים לפתוח אותם. אין באפליקציה פרסומות, אנליטיקס, מעקב או עוגיות.</p>
+
+  <h2>מי מקבל את הפרטים</h2>
+  <p><strong>המורה בלבד.</strong> בסוף המבחן המורה מעתיק את קובצי התשובות המוצפנים לדיסק-און-קי, והאפליקציה של המורה מרכזת אותם לקובץ Excel עם שמות, מספרי זהות, תשובות וציונים. מהרגע שהקבצים יוצאים מהמחשב, האחריות עליהם עוברת לבית הספר, לפי הנהלים שלו.</p>
+
+  <h2>כמה זמן הם נשמרים</h2>
+  <p>קובצי התשובות נשארים במחשב גם אחרי שמסירים את האפליקציה, כדי שתשובות לא ילכו לאיבוד לפני שהמורה אסף אותן. כדי למחוק אותם, מוחקים את התיקייה <code>C:\ProgramData\ExamLock\Answers</code>.</p>
+
+  <h2>ילדים</h2>
+  <p>האפליקציה מיועדת לתלמידים, ומשמשת במסגרת בית הספר ובפיקוח המורים.</p>
+
+  <h2>יצירת קשר</h2>
+  <p>שאלות על מדיניות זו: <a href="https://github.com/Yoavi-cmd/testi-exam/issues">פתחו פנייה כאן</a>.</p>
+</section>
+
+<section lang="en">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: November 2026</p>
+  <p>Testi is an exam app for schools. This policy explains what the app stores, where, and who can see it.</p>
+
+  <h2>What is stored</h2>
+  <p>When a student starts an exam they type their <strong>full name</strong> and <strong>ID number</strong>. During the exam the app also stores their <strong>answers</strong> and an <strong>event log</strong> (when they started, resumed after a problem, left the exam window, and submitted).</p>
+
+  <h2>Where</h2>
+  <p>Only on the computer the exam was taken on. <strong>The app does not connect to the internet</strong> and sends nothing to any server: not to us, not to Microsoft, not to anyone. The files are <strong>encrypted</strong> (AES-256-GCM) so that only the teacher who prepared the exam (and the school's master-key holder) can open them. There are no ads, analytics, tracking or cookies.</p>
+
+  <h2>Who receives it</h2>
+  <p>Only the teacher, who copies the encrypted answer files to a USB stick and combines them into an Excel file of names, ID numbers, answers and grades. Once the files leave the computer, they are the school's responsibility under its own policies.</p>
+
+  <h2>How long it is kept</h2>
+  <p>Answer files stay on the computer even after the app is uninstalled, so no answers are lost before the teacher collects them. To delete them, delete the folder <code>C:\ProgramData\ExamLock\Answers</code>.</p>
+
+  <h2>Children</h2>
+  <p>The app is meant for students and is used within school, under teachers' supervision.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/Yoavi-cmd/testi-exam/issues">open an issue here</a>.</p>
+</section>
+
+</main>
+</body>
+</html>
